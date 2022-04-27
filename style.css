@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital@1&display=swap');
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    height: 100%;
+    background-color: rgb(70, 70, 70);
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(51, 68, 58);
+}
+
+.imgLogo{
+    width: 120px;
+    height: 50px;
+    margin: 20px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+li{
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.fullscreen{
+    background-color: rgb(51, 68, 58);
+    min-height: 100vh;
+    display: flex;
+    padding: 20px 0;
+}
+
+.fullscreen_img{
+    width: 400px;
+    height: auto;
+    padding: 60px 0px 0px 0px;
+}
+
+.fullscreen_img2{
+    width: 200px;
+    height: auto;
+    margin: 150px 90px 0px 20px;
+}
+
+.fullscreen_p{
+    font-size: 17px;
+    width: 70%;
+    margin: auto 0px 0px 20px;
+}
+
+.fullscreen_bg{
+    background: url("les.jpg") center / cover no-repeat fixed;
+}
+
+.fullscreen_two{
+    background-color: rgb(107, 83, 83);
+}
+
+.fullscreen_body{
+    /* background-color: rgb(145, 71, 71); */
+    flex: 1 1 auto;
+    max-width: 1000px;
+    margin: 0px 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 25px;
+}
+
+.fullscreen_title{
+    font-size: 50px;
+    margin: 0px 0px 20px 0px;
+}
+
+.fullscreen_text{
+    font-size: 25px; 
+    margin: 0px 0px 20px 0px;
+    line-height: 40px;
+}
+
+.fullscreen_link{
+    display: inline-block;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    background-color: rgb(2, 2, 2);
+    padding: 0px 20px;
+    
+    width: 240px;
+}
+
+/* 3 блок */
+
+.fullscreen2{
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    display: flex;
+    padding: 20px 0;
+}
+
+
+.fullscreen_body2{
+    /* background-color: rgb(145, 71, 71); */
+    flex: 1 1 auto;
+    max-width: 1000px;
+    margin: 0px 120px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 25px;
+}
+
+.fullscreen_body2 h1{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.fullscreen_body2 p{
+    margin-bottom: 30px;
+    color: black;
+}
+
+.fullscreen_image{
+    background-image: url("images/dev.jpg");
+    background-size: cover;
+    margin: 0px 90px;
+    width: 50%;
+    padding: 80px 0px 0px 70px;
+}
+
+.fullscreen_image h1{
+    font-size: 50px;
+    width: 50%;
+    line-height: 60px;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.fullscreen_image p{
+    padding-top: 30px;
+    width: 75%;
+    line-height: 35px;
+}
+
+h6{
+    color: black;
+    margin-bottom: 10px;
+    text-transform:uppercase;
+}
+
+/* конец 3 блока*/
+
+.content_body{
+    min-width: 1000px;
+    margin: 0px auto;
+    padding: 30px 20px;
+}
+
+.content_body p{
+    margin: 0px 0px 20px 0px;
+}
+
+.content_body p:last-child{
+    margin: 0;
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.footer_body{
+    min-width: 1000px;
+    margin: 0px auto;
+    padding: 30px 20px;
+}
