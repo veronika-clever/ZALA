@@ -178,6 +178,71 @@ h6{
 
 /* конец 3 блока*/
 
+/* 4 блок */
+
+.fullscreen3{
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    display: flex;
+    padding: 20px 0px 0px 90px;
+}
+
+.fullscreen_body3{
+    /* background-color: rgb(145, 71, 71); */
+    flex: 1 1 auto;
+    max-width: 1000px;
+    margin: 0px 120px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 25px;
+}
+
+.fullscreen_body3 h1{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.fullscreen_body3 p{
+    width: 70%;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+
+form {
+    position: relative;
+    padding-top: 6%;
+  }
+
+  
+.buttonLupa {
+    border: none;
+    height: 42px;
+    position: absolute;
+    right: -22px;
+    cursor: pointer;
+}
+
+  
+input {
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    border: black 1px solid;
+  }
+ 
+  
+  .buttonLupa {
+    outline: none;
+    background: transparent;
+  }
+
+/* конец 4 блока */
+
 .content_body{
     min-width: 1000px;
     margin: 0px auto;
